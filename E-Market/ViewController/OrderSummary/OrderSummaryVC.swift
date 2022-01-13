@@ -70,7 +70,7 @@ class OrderSummaryVC: UIViewController {
                 switch response!.result{
                 case .success(let JSON):
                     print("JSON : \(JSON)")
-                    let responseDict = JSON as! NSDictionary
+//                    let responseDict = JSON as! NSDictionary
                     let orderPlacedVC = OrderPlacedVC.loadFromNib()
                     self.navigationController?.pushViewController(orderPlacedVC, animated: true)
 

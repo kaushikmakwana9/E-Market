@@ -9,10 +9,9 @@ import UIKit
 
 class OrderPlacedVC: UIViewController {
 
+    //MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
     }
 
     //MARK: - Button Actions
